@@ -64,6 +64,7 @@ public class RSA {
 		d = e.modInverse(phi);
 		System.out.println("p: "+p);
 		System.out.println("q: "+q);
+		System.out.println("n: "+n);
 		System.out.println("phi: "+phi);
 		System.out.println("e: "+e);
 		System.out.println("d: "+d);
